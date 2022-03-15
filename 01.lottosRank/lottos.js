@@ -1,3 +1,4 @@
+
 function solution(lottos, win_nums) {
     let arrMax = [];
     let arrMin = [];
@@ -41,3 +42,5 @@ function solution(lottos, win_nums) {
     console.log(answer);
     return answer;
 }
+
+module.exports = solution;
