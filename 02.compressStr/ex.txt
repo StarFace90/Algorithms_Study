@@ -1,0 +1,36 @@
+abcabcabcabcdededededede
+
+14
+
+길이 24 
+
+1 * 24 = 24개
+
+24 / 2 = 12개 (총 12분할로 나뉨)
+24 / 3 = 8개 (총 8분할로 나뉨)
+24 / 6 = 4개 (총 4분할로 나뉨)
+24 / 8 = 3개
+24 / 12 = 2개
+
+
+
+abcabcab cabcdede dededede
+
+
+
+
+1) a b c a b c a b c a b c d e d e d e d e d e d e
+
+(2) 
+ab ca bc ab ca bc de de de de de de  
+-> abcabcabcabc6de (15)
+
+문자열은 항상 동일한 길이만큼 잘라야한다 
+    012 345 678 91011  121314  151617  181920   212223
+ 3) abc abc abc abc     ded    ede       ded      ede -> 4abcdededededede (16)
+
+
+4) abca bcab cabc dede dede dede  -> abcabcabcabc3dede (17)
+
+
+최저길이 6) abcabc abcabc dedede dedede -> 2abcabc2dedede (14)
